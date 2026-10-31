@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 70px 400px 1fr;
+}
+
+.chat-list {
+    border-right: 1px solid grey;
+    margin-left: 2px;
+    padding-left: 1px;
+    padding-right: 10px;
+}
+
+.chat-header {
+    display: flex;
+    border-bottom: 1px solid rgb(225, 224, 224);
+}
+
+.chat-header img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.contact-chat p {
+    display: flex;
+    font-size: 13px;
+    padding-top: 3px;
+    text-align: center;
+    margin-top: 2px;
+    flex: 1;
+    font-family: "roboto", sans-serif;
+
+}
+
+.chat-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.chat-icon img {
+    height: 25px;
+    width: 25px;
+}
+
